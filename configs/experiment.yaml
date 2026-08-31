@@ -1,0 +1,18 @@
+experiment:
+  n_events: 500000
+  block_lengths: [1000, 5000, 10000]
+  treatment_probability: 0.5
+  assumed_carryover_memory: 5000
+  carryover_test_memories: [0, 1000, 2500, 5000, 10000]
+  independent_replications: 100
+  randomization_resamples: 2000
+  true_ate: 1.278396906
+
+seeds:
+  rollout_check: 2026
+  main_base: 1000
+  main_count: 100  # main seeds are 1000, 1001, ..., 1099
+
+paths:
+  generated_data: data/generated
+  results: results/final

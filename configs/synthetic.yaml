@@ -1,0 +1,11 @@
+synthetic:
+  n_events: 20000
+  block_length: 200
+  assumed_carryover_memory: 100
+  carryover_test_memory: 50
+  treatment_probability: 0.5
+  replications_quick: 30
+  replications_final: 200
+  resamples_quick: 500
+  resamples_final: 2000
+  alpha: 0.05

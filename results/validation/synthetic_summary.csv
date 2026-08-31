@@ -1,0 +1,7 @@
+test,scenario,replications,rejection_rate,mean_p_value
+anticipation_pirt,anticipation_alternative,200,0.615,0.167446
+anticipation_pirt,anticipation_null,200,0.070,0.489595
+carryover_crt,carryover_alternative,200,0.610,0.092119
+carryover_crt,carryover_null,200,0.070,0.497041
+total_effect_crt,total_alternative,200,1.000,0.000500
+total_effect_crt,total_null,200,0.060,0.494725

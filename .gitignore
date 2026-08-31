@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+
+# Large, reproducible simulator outputs are not stored in Git.
+data/generated/*
+!data/generated/.gitkeep
+*.npz
+
+# Local and temporary experiment outputs.
+results/inference_smoke/
+results/inference_R30/
+results/rollout_checks/
+results/tmp/
+
+# Documents and third-party source material are cited, not redistributed.
+*.pdf
+
+# Local configuration and secrets.
+.env
+.env.*
