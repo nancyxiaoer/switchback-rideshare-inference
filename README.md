@@ -232,11 +232,6 @@ New results go to `results/reproduced/`; the published results remain in
 `results/final/`. The analysis resumes from existing test records, so use a
 fresh output directory for an independent recomputation or changed specification.
 
-Full simulator generation took approximately **11.4 hours on the author's
-Windows CPU setup**, excluding reference-ATE generation. Once trajectories were
-available, all 2,100 randomization tests completed in under one minute.
-Timing and numerical agreement can vary with hardware and dependency versions.
-
 ## Outputs
 
 | File | Contents |
@@ -247,11 +242,6 @@ Timing and numerical agreement can vary with hardware and dependency versions.
 | `results/reproduced/estimation_summary.csv` | Estimator means, SD, bias, and RMSE by interval |
 | `results/reproduced/estimation_performance.png` | Estimation comparison |
 | `results/reproduced/randomization_inference.png` | Randomization-inference comparison |
-
-Keep the generated manifest alongside the trajectories: it is needed to produce
-the estimation summary. The sanitized `results/final/experiment_manifest.csv`
-is a published reporting copy, not the working filename automatically read by
-the analysis script.
 
 ## Limitations
 
