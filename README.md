@@ -118,8 +118,6 @@ python scripts/run_synthetic_validation.py --replications 200 --resamples 2000 -
   p-values by scenario. Null rejection rates assess false positives; alternative
   rejection rates assess detection power.
 
-The published calibration summary is in `results/validation/`.
-
 This is an empirical calibration check, not a proof of validity. Its output is
 not used as input to the rideshare experiment.
 
@@ -218,13 +216,6 @@ After the upstream ATE calculation, return to this project's root in the same
 terminal:
 
 ```powershell
-cd ../switchback-rideshare-public
-```
-
-The script defaults to 500,000 events, L = 1,000 / 5,000 / 10,000, seed start
-1000, and memory 5,000. Set `--seed-count 100` explicitly: its default is only 2.
-
-```powershell
 python scripts/generate_xp_gym_multiseed.py --seed-count 100
 ```
 
@@ -235,12 +226,8 @@ python scripts/generate_xp_gym_multiseed.py --seed-count 100
 - **`manifest.csv`:** one row per trajectory, including its seed, interval,
   naive and pure-history HT estimates, pure-history share, and runtime.
 
-Keep `manifest.csv` with the trajectories; the analysis script uses it to
-calculate estimator summaries.
-
 The generator saves each completed trajectory and skips existing files when
-resumed. If changing the environment or experimental settings, use a new data
-directory rather than mixing runs under existing filenames.
+resumed. 
 
 ### 5. Run inference and summarize estimates
 
