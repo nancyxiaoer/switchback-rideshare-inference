@@ -256,9 +256,6 @@ Results are saved to `results/reproduced/`. The script produces:
    - Shows carryover rejection rates across candidate memory horizons.
    - Includes 95% Wilson intervals for total-effect and anticipation rates, and 5% reference lines for anticipation and carryover.
 
-Published results are in `results/final/`. Use a fresh output directory to
-recompute tests rather than reuse saved records.
-
 ## Outputs
 
 | File | Contents |
