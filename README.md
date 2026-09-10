@@ -16,7 +16,7 @@ resamples per randomization test.
 
 | Switchback interval L | Naive bias | Naive RMSE | Pure-history share | Total-effect CRT rejection rate |
 | ---: | ---: | ---: | ---: | ---: |
-| 1,000 | -0.473 | 0.475 | 3.2% | 0% (0/95 available tests) |
+| 1,000 | -0.473 | 0.475 | 3.2% | 0% |
 | 5,000 | -0.032 | 0.107 | 50.0% | 43% |
 | 10,000 | 0.027 | 0.114 | 75.2% | 62% |
 
